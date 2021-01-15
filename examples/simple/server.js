@@ -22,7 +22,7 @@ http
         );
       } else {
         res.writeHead(404, headers);
-        return res.end("Error 404: file not found.");
+        return res.end("great job, you managed to break it. 404");
       }
     });
   })
